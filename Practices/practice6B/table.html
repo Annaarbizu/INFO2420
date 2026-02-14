@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+<meta charset="UTF-8">
+	
+<title>Practice 6B - Tables</title>
+
+<style>
+.center-div {
+	text-align: center;
+}
+
+.center-table {
+	margin: auto;
+	width: 550px;
+	border-collapse: separate;
+	border-spacing: 4px;
+	border: 1px solid black;
+}
+
+.center-table th,
+.center-table td {
+	padding: 8px;
+	border: 1px solid black;
+}
+
+.caption-style {
+	background-color: #003300;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 8px;
+	border-radius: 5px;
+}
+
+.first-col {
+	background-color: #CCCCCC;
+	width: 25%;
+}
+
+.days {
+	width: 15%;
+}
+
+.day-headers {
+	background-color: #99FF66;
+}
+
+</style>
+</head>
+<body>
+
+<div class="center-div">
+	<table class="center-table">
+
+	 <caption class="caption-style">My Class Schedule</caption>
+	 
+	 <colgroup class="first-col"></colgroup>
+	 <colgroup class="days" span="5"></colgroup>
+		
+		<tr>
+			<th>Course</th>
+			<th class="day-headers">Monday</th>
+			<th class="day-headers">Tuesday</th>
+			<th class="day-headers">Wednesday</th>
+			<th class="day-headers">Thursday</th>
+			<th class="day-headers" >Friday</th>
+		</tr>
+		
+		<tr>
+			<td>INFO 1120</td>
+			<td></td>
+			<td>9-11</td>
+			<td></td>
+			<td>9-11</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>MATH 1010</td>
+			<td></td>
+			<td></td>
+			<td>12-1</td>
+			<td></td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td>INFO 2420</td>
+			<td colspan="5">Online 24/7</td>
+		</tr>
+	
+   </table>
+  </div>
+
+</body>
+</html>
+
