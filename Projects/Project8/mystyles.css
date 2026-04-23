@@ -94,7 +94,7 @@ header a {
 
 section   {
 	width: 900px;
-	background-image: url('../Project8/images/2colback.jpg');
+	background-image: url('images/2colback.jpg');
 	background-repeat: repeat-y;
 	overflow: hidden;
 	margin: auto;
