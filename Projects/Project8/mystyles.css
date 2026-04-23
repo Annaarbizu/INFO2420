@@ -91,13 +91,17 @@ header a {
     text-decoration: none;
     font-weight: bold;
 }
-
-section, div {
+section {
     width: 900px;
-    background-image: url('images/2colback.jpg');
-    background-repeat: repeat-y;
     overflow: hidden;
     margin: auto;
+}
+
+nav {
+    float: left;
+    width: 250px;
+    background-image: url('images/2colback.jpg');
+    background-repeat: repeat-y;
 }
 
 nav a {
