@@ -5,9 +5,9 @@
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Home-Rent A Pet</title>
 <!-- TemplateEndEditable -->
-<link rel="stylesheet" href="mystyles.css">
-<link rel="stylesheet" href="print.css" type="text/css" media="print">
-	<script src="myscripts.js"></script>
+<link rel="stylesheet" href="../mystyles.css">
+<link rel="stylesheet" href="../print.css" type="text/css" media="print">
+	<script src="../myscripts.js"></script>
 
 </head>
 
