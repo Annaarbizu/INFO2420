@@ -79,7 +79,7 @@ header a {
 
 .press-link {
     text-align: center;
-    margin-top: 20px; /* pushes it lower */
+    margin-top: 20px; 
 }
 
 .press-link a {
@@ -94,7 +94,7 @@ header a {
 
 section   {
 	width: 900px;
-	background-image: url('images/2colback.jpg');
+	background-image: url('../Project8/images/2colback.jpg');
 	background-repeat: repeat-y;
 	overflow: hidden;
 	margin: auto;
