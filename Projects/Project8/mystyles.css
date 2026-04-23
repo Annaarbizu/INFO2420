@@ -97,11 +97,15 @@ section {
     margin: auto;
 }
 
-nav {
-    float: left;
-    width: 250px;
+div {
+    background-image: none !important;
+}
+
+.page-wrapper {
     background-image: url('images/2colback.jpg');
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-size: cover; /* or 100% auto if you prefer */
+    min-height: 100vh; /* forces full screen height */
 }
 
 nav a {
