@@ -92,12 +92,12 @@ header a {
     font-weight: bold;
 }
 
-section   {
-	width: 900px;
-	background-image: url('images/2colback.jpg');
-	background-repeat: repeat-y;
-	overflow: hidden;
-	margin: auto;
+section, div {
+    width: 900px;
+    background-image: url('images/2colback.jpg');
+    background-repeat: repeat-y;
+    overflow: hidden;
+    margin: auto;
 }
 
 nav a {
