@@ -15,17 +15,13 @@
 	font-style: normal;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
 	background-color: white;
 	color: #1F3A5F;
 	font-family: Arial, Helvetica, sans-serif;
-	margin: 0;
+	margin: 20px;
 }
 
 header    {
@@ -58,6 +54,14 @@ header a {
 
 .banner-wrapper img {
 	margin-top: 10px;
+}
+
+section   {
+	width: 900px;
+	background-image: url('images/2colback.jpg');
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin: auto;
 }
 
 .center {
@@ -96,21 +100,9 @@ header a {
     text-decoration: none;
     font-weight: bold;
 }
-section {
-    width: 900px;
-    overflow: hidden;
-    margin: auto;
-}
 
-.page-wrapper {
-    background-image: url('images/2colback.jpg');
-    background-repeat: repeat-y;
-    background-size: 100% auto;
-    background-position: left top;
-    min-height: 100%;
-	padding: 20px;
-    
-}
+
+
 
 
 nav a {
